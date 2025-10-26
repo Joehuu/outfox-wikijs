@@ -905,15 +905,17 @@ Default value: 0.000000
 
 ### InputDrivers
 
+*Main page: [InputDrivers](/user-guide/config/preferences/InputDrivers)*
+
 The input drivers the game will use. If nothing is specified, the following defaults will be used:
 
 Windows: ``Para,legacy,minisdl``
 
-Mac: ``portmidi,SDL`` (lts4), ``SDL2`` (alpha5)
+macOS: ``portmidi,SDL`` (LTS 4), ``SDL2`` (Alpha V)
 
-Linux: ``SDL`` (lts4), ``SDL2`` (alpha5)
+Linux: ``SDL`` (LTS 4), ``SDL2`` (Alpha V)
 
-The possible values are ``Rtio`` (Windows-only), ``legacy`` (Windows-only), ``SDL``, ``SDL2`` (alpha5-only), ``Reflex``, ``rtmidi``, ``Python23IO``, ``portmidi``, ``para``, ``minisdl`` and ``ps3ddr`` (alpha5-only)
+All the possible values are listed in the dedicated [InputDrivers](/user-guide/config/preferences/InputDrivers) page.
 
 Default value: nothing
 
